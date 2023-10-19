@@ -1,0 +1,8 @@
+Z=matrix(c(3,3,4,9,8,2,7,4,9), nrow=3, ncol=3, byrow=TRUE)
+det(Z)
+solve(Z)
+eigen(Z)
+svd(Z)
+library(MASS);ginv(Z)
+colMeans(Z)
+colSums(Z)
