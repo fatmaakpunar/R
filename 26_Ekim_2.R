@@ -19,7 +19,7 @@ iris
 class(iris)
 
 as_tibble(iris)#iris veri yapısını özetler
-is_tibble(iris)#iris tibble veri yapısında mı diye kontrol eder
+is_tibble(iris)#iris tibble veri yapısında mı diye kontrol eder, false döner çünkü "iris" doğrudan bir tibble değildir.
 
 tibble(
   x=1:5,
