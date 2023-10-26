@@ -18,8 +18,8 @@ library(tidyverse)
 iris
 class(iris)
 
-as_tibble(iris)
-is_tibble(iris)
+as_tibble(iris)#iris veri yapısını özetler
+is_tibble(iris)#iris tibble veri yapısında mı diye kontrol eder
 
 tibble(
   x=1:5,
